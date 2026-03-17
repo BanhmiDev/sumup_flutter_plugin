@@ -1,5 +1,7 @@
 name: sumup_example
 description: Demonstrates how to use the sumup plugin.
+version: 1.0.0+1
+
 
 publish_to: 'none' 
 

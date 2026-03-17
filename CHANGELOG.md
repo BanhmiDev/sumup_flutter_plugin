@@ -1,3 +1,13 @@
+## 0.14.0
+
+* Add Tap-to-Pay (TTP) support on Android and iOS
+* Add `checkTapToPayAvailability()` and `presentTapToPayActivation()` (iOS) APIs
+* Add `PaymentMethod` enum (`cardReader`, `tapToPay`) to `SumupPaymentRequest`
+* Add `products` field (`List<SumupProduct>`) to `SumupPluginCheckoutResponse` (iOS + Android card reader)
+* Add `merchantCode`, `cardScheme`, and `errors` fields to `SumupPluginCheckoutResponse`
+* Fix iOS: checkout error message was discarded on failed transactions
+* Android: fix blank `foreignTransactionId` causing duplicate-transaction errors
+
 ## 0.13.1
 
 * Android: upgrade Kotlin to 2.1.0
