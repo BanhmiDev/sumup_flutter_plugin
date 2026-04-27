@@ -1,3 +1,8 @@
+## 0.14.1
+
+* Android: propagate `affiliateData` in Tap-to-Pay checkout (#68)
+* Android: fix `AffiliateModel` construction (named arguments) (#73)
+
 ## 0.14.0
 
 * Add Tap-to-Pay (TTP) support on Android and iOS
