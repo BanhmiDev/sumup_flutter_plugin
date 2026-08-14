@@ -48,6 +48,7 @@ android {
     compileSdk 35
 
     compileOptions {
+        coreLibraryDesugaringEnabled true
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
     }
@@ -75,6 +76,9 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
     implementation "com.google.android.gms:play-services-location:21.3.0"
-    api 'com.sumup:merchant-sdk:6.0.0'
+    
+    api 'com.sumup:merchant-sdk:7.0.0'
+    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.1.5"
+    
     implementation 'com.sumup.tap-to-pay:utopia-sdk:1.1.5'
 }
