@@ -80,5 +80,5 @@ dependencies {
     api 'com.sumup:merchant-sdk:7.0.0'
     coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.1.5"
     
-    implementation 'com.sumup.tap-to-pay:utopia-sdk:1.1.6'
+    implementation 'com.sumup.tap-to-pay:utopia-sdk:1.1.5'
 }
